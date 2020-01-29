@@ -1,0 +1,14 @@
+.title {
+  color: #2b2b2b;
+  position: relative;
+  padding-bottom: 10px;
+  text-align: left;
+  &::before {
+    content: "";
+    width: 5%;
+    height: 2px;
+    background-color: #ce0091;
+    position: absolute;
+    bottom: 0px;
+  }
+}

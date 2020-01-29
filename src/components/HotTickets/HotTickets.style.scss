@@ -1,0 +1,157 @@
+@import "../../ScssAssets/mixins.scss";
+
+.hotTicketsContainer {
+  position: relative;
+  transition: 0.5s all ease-in-out;
+  .bigSmallToggle {
+    background-color: #ce0091;
+    padding: 10px 17px;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 1px 1px #ce0091;
+    cursor: pointer;
+    position: absolute;
+    right: 15%;
+    top: 0;
+    margin-top: 1%;
+    transition: 0.5s all ease-in-out;
+    @include md {
+      position: relative;
+      margin-left: 17%;
+    }
+    @include xsm {
+      margin-left: 15%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .hotTicketsImagesGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 0.5s all ease-in-out;
+
+    .grid-view {
+      max-width: 30%;
+      transition: 0.5s all ease-in-out;
+      margin-bottom: 1rem;
+      @include md {
+        max-width: 49%;
+      }
+
+      img {
+        max-width: 100%;
+        border-radius: 5px 5px 0 0;
+        cursor: pointer;
+      }
+
+      .bottomRow {
+        padding-left: 20px;
+        padding-top: 15px;
+        position: relative;
+        border: 2px solid #ccc;
+        border-top: none;
+        border-radius: 0 0 5px 5px;
+        top: -5px;
+        @include xsm {
+          padding-left: 10px;
+        }
+        h4 {
+          position: absolute;
+          top: -65%;
+          color: #fff;
+          @include sm {
+            margin: 5px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.list {
+  position: relative;
+  .bigSmallToggle {
+    background-color: #ce0091;
+    padding: 10px 17px;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 1px 1px #ce0091;
+    cursor: pointer;
+    position: absolute;
+    right: 15%;
+    top: 0;
+    margin-top: 1%;
+    @include md {
+      position: relative;
+      margin-left: 17%;
+    }
+    @include xsm {
+      margin-left: 15%;
+      margin-bottom: 1rem;
+    }
+  }
+  .hotTicketsImagesList {
+    display: block;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    .grid-view {
+      max-width: 100%;
+      margin-bottom: 2rem;
+      display: flex;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 1.5rem;
+      transition: 0.5s all ease-in-out;
+      a {
+        max-width: 30%;
+        cursor: pointer;
+        @include md {
+          max-width: 60%;
+        }
+        @include sm {
+          max-width: 50%;
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 5px 5px 0 0;
+        }
+      }
+
+      .bottomRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 2rem;
+        position: relative;
+        border: none;
+        top: -5px;
+        width: 50%;
+        @include sm {
+          margin-left: 0.5rem;
+        }
+        .widthContaienr {
+          p {
+            @include sm {
+              margin: 0;
+            }
+          }
+          .heightContainer {
+            @include sm {
+              margin: 5px 0;
+            }
+          }
+        }
+        h4 {
+          position: relativee;
+          color: #000;
+          @include sm {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

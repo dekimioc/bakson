@@ -1,0 +1,21 @@
+@import "../../ScssAssets/mixins.scss";
+
+.formEl {
+  text-align: center;
+  margin: 0 auto;
+  .textField {
+    width: 250px;
+    padding: 10px;
+    @include sm {
+      width: 180px;
+    }
+  }
+  .btn-top {
+    padding: 10px 30px;
+    background-color: #ce0091;
+    border-color: #ce0091;
+    svg {
+      color: #fff;
+    }
+  }
+}

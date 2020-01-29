@@ -1,0 +1,157 @@
+@import "../../ScssAssets/mixins.scss";
+
+.upcomingEventsContainer {
+  position: relative;
+  margin-bottom: 2rem;
+  transition: 0.5s all ease-in-out;
+  .upcomingEventsImagesList {
+    display: flex;
+    flex-direction: column;
+    .eventTicketContainerList {
+      transition: 0.5s all ease-in-out;
+      height: 170px;
+      .imgDatesSection {
+        max-width: 70%;
+        .imgEventContainer {
+          width: 30%;
+          @include sm {
+            width: 50%;
+          }
+        }
+        img {
+          width: 100%;
+          height: 150px;
+          object-fit: cover;
+        }
+        .eventTextSection {
+          display: flex;
+          align-items: flex-start;
+          margin-left: 1.5rem;
+          @include sm {
+            flex-direction: column;
+            margin-left: 0.5rem;
+          }
+          .dateFirst {
+            margin-right: 10px;
+            p {
+              margin-top: 0;
+              margin-bottom: 0px;
+            }
+            .dayInMonth {
+              font-size: 32px;
+              @include sm {
+                font-size: 24px;
+              }
+            }
+          }
+          .moreDetails {
+            p {
+              margin-top: 0;
+            }
+            .hourlyTime {
+              color: #ce0091;
+              font-weight: bold;
+              margin: 0 0 5px 0;
+            }
+            h4 {
+              margin: 5px 0;
+              @include sm {
+                font-size: 13px;
+              }
+            }
+            .dimensions {
+              font-size: 20px;
+              @include sm {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .upcomingEventsImagesGrid {
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s all ease-in-out;
+    @include md {
+      flex-wrap: wrap;
+    }
+    .eventTicketContainerList {
+      transition: 0.5s all ease-in-out;
+      display: flex;
+      flex-direction: column;
+      max-width: 30%;
+      padding-top: 0;
+      border: 1px solid #ccc;
+      border-top: none;
+      border-left-width: 90%;
+      margin-bottom: 1.5rem;
+      @include md {
+        max-width: 49%;
+        padding-bottom: 0;
+      }
+      .imgDatesSection {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+
+        .imgEventContainer {
+          transition: 0.5s all ease-in-out;
+          img {
+            width: 100%;
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px 5px 0 0;
+          }
+        }
+        .eventTextSection {
+          display: flex;
+          justify-content: space-around;
+          @include lg {
+            padding: 10px;
+          }
+          @include sm {
+            flex-direction: column;
+          }
+          .dateFirst {
+            margin-right: 10px;
+
+            p {
+              margin-top: 0;
+              margin-bottom: 0px;
+            }
+          }
+          .dayInMonth {
+            font-size: 32px;
+            @include sm {
+              font-size: 24px;
+            }
+          }
+
+          .moreDetails {
+            p {
+              margin-top: 0;
+            }
+            .hourlyTime {
+              color: #ce0091;
+              font-weight: bold;
+              margin: 0 0 5px 0;
+            }
+            h4 {
+              margin: 5px 0;
+            }
+            .dimensions {
+              font-size: 18px;
+              @include lg {
+                display: flex;
+                flex-direction: column;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
