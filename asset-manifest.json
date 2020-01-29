@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dekimioc/bakson.git/static/css/main.aee7d8db.chunk.css",
+    "main.js": "/dekimioc/bakson.git/static/js/main.c496440c.chunk.js",
+    "main.js.map": "/dekimioc/bakson.git/static/js/main.c496440c.chunk.js.map",
+    "runtime-main.js": "/dekimioc/bakson.git/static/js/runtime-main.a4cadeb1.js",
+    "runtime-main.js.map": "/dekimioc/bakson.git/static/js/runtime-main.a4cadeb1.js.map",
+    "static/js/2.dd9646f6.chunk.js": "/dekimioc/bakson.git/static/js/2.dd9646f6.chunk.js",
+    "static/js/2.dd9646f6.chunk.js.map": "/dekimioc/bakson.git/static/js/2.dd9646f6.chunk.js.map",
+    "index.html": "/dekimioc/bakson.git/index.html",
+    "precache-manifest.b4071f70bab43044f1959b867ea97aca.js": "/dekimioc/bakson.git/precache-manifest.b4071f70bab43044f1959b867ea97aca.js",
+    "service-worker.js": "/dekimioc/bakson.git/service-worker.js",
+    "static/css/main.aee7d8db.chunk.css.map": "/dekimioc/bakson.git/static/css/main.aee7d8db.chunk.css.map",
+    "static/js/2.dd9646f6.chunk.js.LICENSE": "/dekimioc/bakson.git/static/js/2.dd9646f6.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4cadeb1.js",
+    "static/js/2.dd9646f6.chunk.js",
+    "static/css/main.aee7d8db.chunk.css",
+    "static/js/main.c496440c.chunk.js"
+  ]
+}
