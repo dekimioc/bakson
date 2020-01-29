@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/dekimioc/bakson.git/static/css/main.aee7d8db.chunk.css",
-    "main.js": "/dekimioc/bakson.git/static/js/main.c496440c.chunk.js",
-    "main.js.map": "/dekimioc/bakson.git/static/js/main.c496440c.chunk.js.map",
-    "runtime-main.js": "/dekimioc/bakson.git/static/js/runtime-main.a4cadeb1.js",
-    "runtime-main.js.map": "/dekimioc/bakson.git/static/js/runtime-main.a4cadeb1.js.map",
-    "static/js/2.dd9646f6.chunk.js": "/dekimioc/bakson.git/static/js/2.dd9646f6.chunk.js",
-    "static/js/2.dd9646f6.chunk.js.map": "/dekimioc/bakson.git/static/js/2.dd9646f6.chunk.js.map",
-    "index.html": "/dekimioc/bakson.git/index.html",
-    "precache-manifest.b4071f70bab43044f1959b867ea97aca.js": "/dekimioc/bakson.git/precache-manifest.b4071f70bab43044f1959b867ea97aca.js",
-    "service-worker.js": "/dekimioc/bakson.git/service-worker.js",
-    "static/css/main.aee7d8db.chunk.css.map": "/dekimioc/bakson.git/static/css/main.aee7d8db.chunk.css.map",
-    "static/js/2.dd9646f6.chunk.js.LICENSE": "/dekimioc/bakson.git/static/js/2.dd9646f6.chunk.js.LICENSE"
+    "main.css": "/bakson/static/css/main.aee7d8db.chunk.css",
+    "main.js": "/bakson/static/js/main.76e50c9a.chunk.js",
+    "main.js.map": "/bakson/static/js/main.76e50c9a.chunk.js.map",
+    "runtime-main.js": "/bakson/static/js/runtime-main.ca9f7e3e.js",
+    "runtime-main.js.map": "/bakson/static/js/runtime-main.ca9f7e3e.js.map",
+    "static/js/2.dd9646f6.chunk.js": "/bakson/static/js/2.dd9646f6.chunk.js",
+    "static/js/2.dd9646f6.chunk.js.map": "/bakson/static/js/2.dd9646f6.chunk.js.map",
+    "index.html": "/bakson/index.html",
+    "precache-manifest.077d751471e59a222c31469343f61db1.js": "/bakson/precache-manifest.077d751471e59a222c31469343f61db1.js",
+    "service-worker.js": "/bakson/service-worker.js",
+    "static/css/main.aee7d8db.chunk.css.map": "/bakson/static/css/main.aee7d8db.chunk.css.map",
+    "static/js/2.dd9646f6.chunk.js.LICENSE": "/bakson/static/js/2.dd9646f6.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.a4cadeb1.js",
+    "static/js/runtime-main.ca9f7e3e.js",
     "static/js/2.dd9646f6.chunk.js",
     "static/css/main.aee7d8db.chunk.css",
-    "static/js/main.c496440c.chunk.js"
+    "static/js/main.76e50c9a.chunk.js"
   ]
 }
